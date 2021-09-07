@@ -20,13 +20,9 @@ Pod::Spec.new do |spec|
   spec.description  = "GCD定时器"
   spec.homepage     = "https://github.com/txy1042348976/RSGCDTimer"
   spec.license      = ":type => 'MIT'"
-  spec.author             = { "txy1042348976" => "txy1042348976@icloud.com" }
+  spec.author       = { "txy1042348976" => "txy1042348976@icloud.com" }
   spec.platform     = :ios, "11.0"
   spec.swift_versions = '5'
   spec.source       = { :git => "https://github.com/txy1042348976/RSGCDTimer.git", :tag => "v#{spec.version}" }
-  spec.source_files  = "Sources/*.{swift}"
-  # spec.dependency 'RSGCDTimer.swift'
-
-
-  
+  spec.source_files     = "Sources/*.swift"
 end
